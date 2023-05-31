@@ -13,10 +13,10 @@ The current LAB is already finished, when you want to do the configuration by yo
 Tips:
 Create the pools  on the router with excluded addresses.
 There will be no subinterfaces on the router, so just add an Ip address to the main interface. (Select a network address for the connection with the L3 switch. I used 192.168.1.2 for router and xxx1 for the switch)
-The link between the switches is trunk. But some Cisco switches use Dot1q encapsulation on default some donít (They use (ISL)ó a Cisco proprietary protocol). So on the L3 side, you should add ìsw tr encapsulation dot1qî and then continue the setup.
+The link between the switches is trunk. But some Cisco switches use Dot1q encapsulation on default some don‚Äôt (They use (ISL)‚Äî a Cisco proprietary protocol). So on the L3 side, you should add ‚Äúsw tr encapsulation dot1q‚Äù and then continue the setup.
 On the L3 sw do not forget to add ip routing (for intervlan and outside routing).
 Create SVIs for related vlans. Add the default router IP address of the pools that will be created on the router to the related Vlan interface.
-Add the ip helper addresses on the Vlan interfaces Closest Interface to the DHCP server, here is the server itself.)
-The switch router connection will need an IP address ñ above given. Do not forget to add ìno swî in the interface.
+Add the ip helper addresses on the Vlan interfaces Closest Interface to the DHCP server)
+The switch router connection will need an IP address ‚Äì above given. Do not forget to add ‚Äúno sw‚Äù in the interface.
 
 
