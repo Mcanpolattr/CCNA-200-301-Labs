@@ -19,4 +19,5 @@ Create SVIs for related vlans. Add the default router IP address of the pools th
 Add the ip helper addresses on the Vlan interfaces Closest Interface to the DHCP server)
 The switch router connection will need an IP address – above given. Do not forget to add “no sw” in the interface.
 
+video link: https://youtu.be/9qrXBQ4Is_M
 
