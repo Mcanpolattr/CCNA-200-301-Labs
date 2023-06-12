@@ -23,4 +23,4 @@ Then create the trunk Vlans on the uplinks, going to the related router.
 On the routers you should make ROAS for 2 sub interfaces.
 Create the DHCP pools, you can add DNS server if you want, don’t forget to add excluded addresses.
 
-video link: https://youtu.be/9qrXBQ4Is_M
+video link: https://www.youtube.com/watch?v=xhFWTcyDVJo
