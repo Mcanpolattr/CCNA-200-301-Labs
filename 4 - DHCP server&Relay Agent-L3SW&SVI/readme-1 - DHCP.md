@@ -1,6 +1,6 @@
 
  
-In this lab we will be implementing DHCP server configuration, for 4 Pools (VLan) – Current LABs are already finished, when you want to do the configuration by yourself just Erase the NVRAM and restart like on the other labs.
+In this lab we will be implementing DHCP server configuration, for 4 Pools (VLan) â€“ Current LABs are already finished, when you want to do the configuration by yourself just Erase the NVRAM and restart like on the other labs.
 
 I noticed that when I use DHCP servers in the labs it makes everything much easier for the endpoints. (You just select the PCxx/config/interface and select DHCP / instead of adding IP addresses and Default router manually). And anyway in our usual life we are mostly using DHCP on our laptops/PCs etc.
 
@@ -21,5 +21,6 @@ Tips:
 First arrange the ports on the switch.
 Then create the trunk Vlans on the uplinks, going to the related router.
 On the routers you should make ROAS for 2 sub interfaces.
-Create the DHCP pools, you can add DNS server if you want, don’t forget to add excluded addresses.
+Create the DHCP pools, you can add DNS server if you want, donâ€™t forget to add excluded addresses.
 
+video link: https://youtu.be/9qrXBQ4Is_M
