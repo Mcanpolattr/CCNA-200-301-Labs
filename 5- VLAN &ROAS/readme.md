@@ -23,7 +23,7 @@ Once everything is set up, you should be able to ping every PC in different VLAN
 
 Since all subinterfaces on the main router can already communicate with each other (you can check with the "show ip route" command), you do not need to define any routing. But if you need to ping the router at 10.0.0.1, you will need to define a route for all the VLANs under the R_out. (No additional configuration is needed on the main router, as it is already connected to 10.0.0.1 via g0/0.)
 
-
+video link: https://youtu.be/NZL4kI776RM
 
 
 
